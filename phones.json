@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 14 Pro",
+      "price": 999,
+      "description": "Apple iPhone 14 Pro with A16 Bionic chip, 6.1-inch Super Retina XDR display, and Pro camera system.",
+      "image": "https://example.com/images/iphone14pro.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23 Ultra",
+      "price": 1199,
+      "description": "Samsung Galaxy S23 Ultra with Snapdragon 8 Gen 2, 200MP camera, and 6.8-inch QHD+ display.",
+      "image": "https://example.com/images/galaxy-s23-ultra.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Google Pixel 8 Pro",
+      "price": 899,
+      "description": "Google Pixel 8 Pro featuring the Google Tensor G3 chip, advanced AI features, and clean Android experience.",
+      "image": "https://example.com/images/pixel8pro.jpg"
+    },
+    {
+      "id": 4,
+      "name": "OnePlus 12",
+      "price": 799,
+      "description": "OnePlus 12 with Snapdragon 8 Gen 3, 120Hz AMOLED display, and Hasselblad-tuned cameras.",
+      "image": "https://example.com/images/oneplus12.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi 14 Pro",
+      "price": 749,
+      "description": "Xiaomi 14 Pro with Leica camera system, powerful Snapdragon chipset, and high refresh rate display.",
+      "image": "https://example.com/images/xiaomi14pro.jpg"
+    }
+  ]
+  
