@@ -18,6 +18,12 @@ app.get('/test', (req,res) => {
 app.get('/phones', (req, res) => {
     res.send(phones)
 })
+//show phone data dynamically // 
+app.get('/phones/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const phone = phones.find(phone => phone.id === id) || {};
+    res.send(phone)
+})
 
   app.listen(port, () => {
     console.log(`Test Server is running on port ${port}`)
