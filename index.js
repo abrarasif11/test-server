@@ -13,17 +13,11 @@ app.get('/', (req, res) => {
 app.get('/test', (req,res) => {
     res.send('data testing')
 })
-//phone demo data // 
-app.get('/phone', (req, res) => {
-    res.send('Its My Phone Data')
-})
 
-//actual phone data // 
+//phones data // 
 app.get('/phones', (req, res) => {
     res.send(phones)
 })
-
-
 
   app.listen(port, () => {
     console.log(`Test Server is running on port ${port}`)
