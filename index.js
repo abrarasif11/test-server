@@ -1,7 +1,13 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const phones = require('./phones.json');
 const port = 5000
+
+
+//middle ware 
+app.use(cors());
+
 
 app.get('/', (req, res) => {
     res.send('Server Testing 123 Hello!')
